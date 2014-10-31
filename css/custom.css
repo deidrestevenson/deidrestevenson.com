@@ -1,10 +1,16 @@
 body {
-	font-family: 'Source Sans Pro', sans-serif; font-weight:300;
+	font-family: 'Source Sans Pro', sans-serif; font-weight:400;
 	font-size: 16px;
 }
-.header {
+.bg-pic {
 	background:#12343e url(../images/background.jpg) no-repeat center center fixed;-webkit-background-size:cover;-moz-background-size:cover;-o-background-size:cover;
-	background-size:cover;height:500px;text-shadow: 0 1px 2px rgba(0, 0, 0, 0.6);color:#fff;
+	background-size:cover;
+}
+.space-500 {
+	height: 500px;
+}
+.bg-pic h1, .bg-pic h2 {
+	text-shadow: 0 1px 2px rgba(0, 0, 0, 0.6); color:#ffffff;
 }
 .margin-negative {
 	margin-top: -140px;
@@ -14,4 +20,24 @@ body {
 }
 .margin-positive {
 	margin-top: 50px;
+}
+
+#education {
+	margin-bottom: 150px;
+}
+#skills .col-md-6 {
+	margin-bottom: 50px;
+}
+.navbar-default {
+	background-color: #666;
+	border-bottom: #000;
+}
+.navbar-default .navbar-brand {
+	color: #ffffff;
+}
+.navbar-default .navbar-nav>li>a {
+	color: #ffffff;
+}
+.navbar-default .navbar-nav>li>a:hover {
+	color: #bfefff;
 }
