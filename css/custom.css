@@ -1,6 +1,6 @@
 body {
 	font-family: 'Source Sans Pro', sans-serif; font-weight:400;
-	font-size: 16px;
+	font-size: 16px; background-color: #fffffa;
 }
 .bg-pic {
 	background:#12343e url(../images/background.jpg) no-repeat center center fixed;-webkit-background-size:cover;-moz-background-size:cover;-o-background-size:cover;
@@ -32,12 +32,16 @@ body {
 	background-color: #666;
 	border-bottom: #000;
 }
-.navbar-default .navbar-brand {
+.navbar-default .navbar-nav>li>a, .navbar-default .navbar-brand {
 	color: #ffffff;
 }
-.navbar-default .navbar-nav>li>a {
-	color: #ffffff;
-}
-.navbar-default .navbar-nav>li>a:hover {
+.navbar-default .navbar-nav>li>a:hover, .navbar-default .navbar-brand:hover, 
+.navbar-default .navbar-brand:focus {
 	color: #bfefff;
+}
+.foottext {
+	color: #ffffff; padding: 20px;
+}
+.panel-body {
+	background-color: #fffffa;
 }
