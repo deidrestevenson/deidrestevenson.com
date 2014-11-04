@@ -4,11 +4,13 @@ body {
 }
 .bg-pic {
 	background:#12343e url(../images/background.jpg) no-repeat center center fixed;-webkit-background-size:cover;-moz-background-size:cover;-o-background-size:cover;
-	background-size:cover;
+	background-size:cover; 
 }
 .space-500 {
 	height: 500px;
 }
+
+
 .bg-pic h1, .bg-pic h2 {
 	text-shadow: 0 1px 2px rgba(0, 0, 0, 0.6); color:#ffffff;
 }
@@ -19,7 +21,7 @@ body {
 	color: #ffffff;
 }
 .margin-positive {
-	margin-top: 50px;
+	margin-top: 70px;
 }
 
 #education {
@@ -39,9 +41,16 @@ body {
 .navbar-default .navbar-brand:focus {
 	color: #bfefff;
 }
-.foottext {
-	color: #ffffff; padding: 20px;
+.footer p {
+	color: #ffffff; padding: 10px;
 }
 .panel-body {
 	background-color: #fffffa;
+}
+#skills, #experience, #about, #education {
+	margin-top: -40px;
+	padding-top: 40px;
+}
+#contact {
+	color: #ffffff; padding-bottom: 200px;
 }
