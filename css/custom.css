@@ -54,3 +54,6 @@ body {
 #contact {
 	color: #ffffff; padding-bottom: 200px;
 }
+@media(max-width:1024px){.bg-pic h1 {font-size:46px;} .bg-pic {background:url(../images/background.jpg);
+	-webkit-background-size:cover;-moz-background-size:cover;-o-background-size:cover;background-size:cover;
+	color:#fff;padding-top:0px;}}
