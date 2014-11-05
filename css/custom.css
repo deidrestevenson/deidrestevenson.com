@@ -51,6 +51,6 @@ body {
 #contact {
 	color: #ffffff; padding-bottom: 200px;
 }
-@media(max-width:1024px){.bg-pic h1 {font-size:46px; color: #333;} .bg-pic {background:url(../images/background.jpg);
+@media(max-width:1024px){h1 {font-size:46px; color: #333;} .bg-pic {background:url(../images/background.jpg);
 	-webkit-background-size:cover;-moz-background-size:cover;-o-background-size:cover;background-size:cover;
 	color:#333;padding-top:0px;}}
